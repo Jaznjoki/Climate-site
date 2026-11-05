@@ -1,0 +1,87 @@
+/* ---------- Page background ---------- */
+body {
+  background-color: rgb(252, 147, 199); /* pink */
+  font-family: "Pixelify Sans",sans-serif;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+  color: rgb(231, 255, 94);        /* yellow-green */
+  font-family: "Redaction 50", serif; /* font from the Google Fonts link; serif is the fallback */
+}
+
+h2 {
+  color: aquamarine;
+  font-family: "Silkscreen", sans-serif;
+}
+
+h3 {
+  color: rgb(188, 232, 232);     /* light blue */
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+/* ---------- Text: applies to EVERY <p> on the page ---------- */
+p {
+  color: rgb(105, 37, 241);        /* purple */
+  font-family: "VT323", monospace;          /* thin retro terminal style */
+  font-size: 1.5rem;                        /* VT323 runs small, so size it up */
+}
+
+/* ---------- Lists: applies to every <li> ---------- */
+li {
+  color: beige;
+   font-family: "VT323", monospace;
+  font-size: 1.4rem;
+}
+
+/* ---------- Specific paragraphs (matched by id in the HTML) ---------- */
+/* Use with: <p id="p1"> */
+#p1 {
+  background-color: rgb(168, 121, 222); /* light purple box behind the text */
+  color: rgb(220, 45, 45);              /* red text, overrides the purple from p */
+}
+
+/* Use with: <p id="p2"> */
+#p2 {
+  color: rgb(99, 46, 82);          /* dark plum, overrides the purple from p */
+}
+.btn {
+  background-color: aqua;
+
+}
+.btn {
+  background-color: aqua;
+  padding: 20px;
+}
+.btn { background-color: aqua;
+  padding: 20px;
+  display: inline-block;
+    text-decoration: none;
+  color: rgb(62, 35, 153);  
+  border: 3px solid black;
+  border-radius: 20px;
+  .btn:hover {
+  background-color: rgb(255, 228, 73);
+  }
+  .btn:active {
+  background-color: red;
+
+}
+}
+
+img {
+width: 60%;
+  display: block;
+  margin-top: 20px;
+ border: 3px rgb(152, 108, 247);
+
+}
+
+
+
+
+
+
+ 
+
